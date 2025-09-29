@@ -6,7 +6,7 @@ data:
   restaurantdb_url: jdbc:h2:mem:restaurantdb
   foodcataloguedb_url: jdbc:h2:mem:foodcataloguedb
   userdb_url: jdbc:h2:mem:userdb
-  orderdb_url: mongodb+srv://admin:codedecode@atlas-cluster.mqdj7js.mongodb.net/?retryWrites=true&w=majority
+  orderdb_url: mongodb://localhost:27017/orderdb
   eureka_service_address: http://eureka-0.eureka-service:8761/eureka
 
   
