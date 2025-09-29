@@ -8,6 +8,13 @@ spec:
   - host: my.local.domain
     http:
       paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: eureka-service
+            port:
+              number: 8761
       - path: /restuarant
         pathType: Prefix
         backend:
